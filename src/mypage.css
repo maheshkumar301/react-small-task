@@ -1,0 +1,56 @@
+body{
+    background:url('SL-070723-61140-18.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#container{
+    display: grid;
+    place-content: center;
+    padding: 280px 300px 280px 250px;
+}
+/* #container:hover{
+    animation: shake 2s ease-in-out infinite alternate;
+    }
+    @keyframes shake {
+        0%, 100% {transform: translateX(90);}
+        10%   ,90%  {transform: translateY(-60px);}
+        50%   {transform: translateX(-20px);}
+        } */
+
+.div{
+width: 100%;
+height: auto;
+text-align:center;
+padding: 10px;
+border: solid black 1px;
+margin: 10px;
+background-color:rgba(0, 20, 255, 10%);
+box-shadow: 0 0 10px rgba(0,0,0,1);
+border-radius: 5px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div input{
+    width:70%;
+    border-radius: 5px;
+}
+.div button{
+    margin:3px;
+    background-color: blue;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.div button:hover{
+    cursor: pointer;
+    color: white;
+    background-color:red;
+
+
+}
+h3,h1,label{
+    color: white;
+}
+span{
+    color: yellow;
+}
